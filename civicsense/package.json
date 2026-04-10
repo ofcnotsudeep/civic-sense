@@ -1,0 +1,14 @@
+{
+  "name": "civicsense",
+  "version": "1.0.0",
+  "description": "AI Urban Intelligence Platform",
+  "scripts": {
+    "setup": "cd backend && npm install --ignore-scripts && cd ../frontend && npm install",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
